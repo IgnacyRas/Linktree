@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <main>
+    <title>Ignacy Rasiński</title>
+    <link rel="stylesheet" href="styl.css" />
+  </main>
+  <body id="body">
+    <div id="menu-gl">
+      <ul>
+        <div id="tytul">
+          <p>Moje Social Media:</p>
+          <li>
+            <img type="icon" src="../ZDJĘCIA/facebook.png" alt="facebook" />
+            <a href="https://www.facebook.com/ignacy.rasinski"> FACEBOOK</a>
+          </li>
+          <li>
+            <img type="icon" src="../ZDJĘCIA/instagram.webp" alt="instagram" />
+            <a href="https://www.instagram.com/thekapsel1232/"> INSTAGRAM</a>
+          </li>
+          <li>
+            <img type="icon" src="../ZDJĘCIA/mail.png" alt="mail" />
+            <a href="mailto:ignacy.ras@gmail.com"> ignac.ras@gmail.com</a>
+          </li>
+          <li>
+            <img type="icon" src="../ZDJĘCIA/tiktok.webp" alt="tiktok" />
+            <a href="https://www.tiktok.com/@thekapsel"> TIK TOK</a>
+          </li>
+          <li>
+            <img type="icon" src="../ZDJĘCIA/snapcode.png" alt="Snapkod" /><a
+              href="https://accounts.snapchat.com/accounts/welcome"
+            >
+              SNAPCHAT</a
+            >
+          </li>
+        </div>
+      </ul>
+    </div>
+  </body>
+</html>
+
+
+CSS
+#body
+{
+    
+    background-image: url("../ZDJĘCIA/tyl.jpg");
+    background-size: 100%;
+    
+    background-color: #481CE3;
+    font-family: 'Allerta Stencil', 'Arial', 'sans-serif';
+    font-size: 24px;
+}
+#menu-gl
+{
+    position: relative;
+    margin: auto;
+}
+img
+{
+    position: relative;
+    width:30px;
+    height:30px;
+    left: 1px;
+    top: 50px;
+    margin-left:60px ;
+    padding: 0px;
+    
+    
+    
+    
+    
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    
+    background-color: white;
+    border-style: solid;
+    border-radius: 8%;
+    border-color: black;
+    width: 300px;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    padding:10px 30px 10px 50px;
+    margin: 5px auto;
+    color: black;
+    
+    
+}
+p{
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+#tytul{
+   
+    position: relative;
+    margin: 200px auto;
+    background-color: #B7E31C;
+    border-style: solid;
+    border-width: 2px;
+    height:700px;
+    width: 500px;
+    
+}
+a:hover{
+    color: aliceblue;
+    background-color: #481CE3;
+    
+}
